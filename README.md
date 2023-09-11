@@ -1,26 +1,14 @@
-Ceci est un template [Next.js](https://nextjs.org/) créer par [UIX_DEV] (https://uix_dev.versel.app)
+# Masonry Layout en Next.js
 
-## Getting Started
+Ce projet est une démonstration d'un masonry layout réalisé avec Next.js, un framework React, par un développeur Front-End passionné. Le masonry layout est une disposition de grille où les éléments sont positionnés de manière optimale, créant ainsi un design élégant et fluide.
 
-Prémèrement, lancer le serveur de développement : 
+## Fonctionnalités clés
+- Mise en page masonry dynamique sans utiliser de JavaScript, grâce à l'utilisation de CSS.
+- Intégration transparente avec Next.js pour une expérience de développement rapide.
+- Réactivité : s'adapte à différentes tailles d'écran et d'appareils.
+- Utilisation d'images avec chargement prioritaire pour améliorer les performances.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Ouvrir [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le resultat.
-
-[Styleguide](http://localhost:3000/styleguide) cette "Endpoint" est éditable içi `pages/styleguide.tsx`.
-
-Le [Styleguide](http://localhost:3000/styleguide) contient tous les composants utiliser dans le site comme les boutons, listes, etc..
-
-
-## Deployement avec Versel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Comment utiliser
+1. Téléchargez ou clonez ce dépôt.
+2. Intégrez le composant `Masonry.tsx` dans votre projet Next.js.
+3. Utilisez le composant `Masonry` où vous souhaitez afficher votre mise en page masonry.
